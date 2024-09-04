@@ -53,6 +53,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100hv;
+	max-width: 1040;
 }
 
 section {
@@ -145,3 +146,10 @@ footer {
 	text-align: center;
 	padding: 10px;
 }
+
+@media (max-width: 540px) {
+	#container {
+		width: 80%;
+	}
+}
+
